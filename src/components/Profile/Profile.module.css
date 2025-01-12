@@ -1,0 +1,71 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  width: 500px;
+  border: 2px solid black;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-top: 36px;
+  margin-bottom: 100px;
+}
+
+.imgWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+  background-color: whitesmoke;
+}
+
+.userImg {
+  margin-bottom: 32px;
+  width: 220px;
+  height: 220px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.userName {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.userTag {
+  margin-bottom: 16px;
+  color: grey;
+  font-size: 24px;
+}
+
+.userLocation {
+  font-size: 24px;
+  color: grey;
+}
+
+.cardList {
+  display: flex;
+  background-color: lightgrey;
+}
+
+.cardItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  border-top: 2px solid gray;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+
+  flex-direction: column;
+  width: calc(100% / 3);
+}
+
+.cardItemText {
+  font-size: 24px;
+}
+
+.cardItemStats {
+  font-weight: 600;
+}
