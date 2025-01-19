@@ -23,23 +23,3 @@
   height: 60px;
   margin-bottom: 10px;
 }
-
-.title {
-  margin: 0;
-  font-size: 16px;
-  color: #333;
-}
-
-.status {
-  font-size: 14px;
-  font-weight: bold;
-  margin-top: 5px;
-}
-
-.statusOnline {
-  color: green;
-}
-
-.statusOffline {
-  color: red;
-}
